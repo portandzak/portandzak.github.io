@@ -3,9 +3,9 @@
 $recepient = "andrew.zakrevskiy@gmail.com";
 $sitename = "Portfolio";
 
-$name = trim($_POST["name"]);
-$email = trim($_POST["email"]);
-$text = trim($_POST["text"]);
+$name = trim($_GET["name"]);
+$email = trim($_GET["email"]);
+$text = trim($_GET["text"]);
 
 $pagetitle = "Новая заявка с сайта \"$sitename\"";
 $message = "Имя: $name \nEmail: $email \nТекст: $text";
